@@ -1,0 +1,218 @@
+@font-face {
+  font-family: Provacali;
+  src: url(fonts/Provicali.otf);
+}
+@font-face {
+  font-family: Minecraft;
+  src: url(fonts/MinecraftTen-VGORe.ttf);
+}
+body, html {
+  height: 100%;
+}
+
+.bg {
+  /* The image used */
+  background-image: url("sunset1.jpg");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+ /* Navbar container */
+.navbar {
+    overflow: hidden;
+    background-color: black;
+    font-family: Arial;
+  }
+  
+  /* Links inside the navbar */
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* The dropdown container */
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  /* Dropdown button */
+  .dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit; /* Important for vertical align on mobile phones */
+    margin: 0; /* Important for vertical align on mobile phones */
+  }
+  
+  /* Add a red background color to navbar links on hover */
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+  }
+  
+  /* Dropdown content (hidden by default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  /* Add a grey background color to dropdown links on hover */
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  .clickboard {
+
+    margin-top: 3mm;
+    padding-left: 20mm;
+  
+  }
+
+  h1 {
+    font-family:  Arial, sans-serif;
+    font-weight:normal;
+    font-style:normal;
+    stroke-width: 1mm;
+    stroke: white;
+    }
+
+  p {
+    font-family: inherit;
+  }
+
+  .heading-1 {
+    font-family: inherit;
+  }
+  
+  h3 {
+    font-family:  'Provacali',Arial, sans-serif;
+    font-weight:normal;
+    font-style:normal;
+    stroke-width: 1mm;
+    color: white;
+    height: 50px;
+    width: 750px;
+    font-size: 40px;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+    }
+
+  h2 {
+    font-family:  'Minecraft',Arial, sans-serif;
+    font-weight:normal;
+    font-style:normal;
+    color: red;
+    font-size: 60px;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+    -webkit-text-fill-color: red;
+    }
+
+    h1 {
+      font-family:  'Minecraft',Arial, sans-serif;
+      font-weight:normal;
+      font-style:normal;
+      color: white;
+      font-size: 60px;
+      -webkit-text-stroke-width: 3px;
+      -webkit-text-stroke-color: black;
+      }
+
+      p {
+        font-family:  'Minecraft',Arial, sans-serif;
+        font-weight:normal;
+        font-style:normal;
+        color: red;
+        font-size: 60px;
+        -webkit-text-stroke-width: 2px;
+        -webkit-text-stroke-color: black;
+      }
+
+      .teams {
+        font-family:  'Provacali',Arial, sans-serif;
+        font-weight:normal;
+        font-style:normal;
+        stroke-width: 1mm;
+        color: white;
+        height: 35px;
+        width: 750px;
+        font-size: 30px;
+        -webkit-text-stroke-width: 2px;
+        -webkit-text-stroke-color: black;
+        margin-left: 200px;
+        margin-bottom: 50px;
+      }
+
+      .players {
+        font-family:  'Provacali',Arial, sans-serif;
+        font-weight:normal;
+        font-style:normal;
+        stroke-width: 1mm;
+        color: white;
+        height: 35px;
+        width: 750px;
+        font-size: 30px;
+        -webkit-text-stroke-width: 2px;
+        -webkit-text-stroke-color: black;
+        margin-left: 500px;
+      }
+
+      .contact {
+        font-family:  'Provacali',Arial, sans-serif;
+        font-weight:normal;
+        font-style:normal;
+        stroke-width: 1mm;
+        color: white;
+        height: 35px;
+        width: 750px;
+        font-size: 30px;
+        -webkit-text-stroke-width: 2px;
+        -webkit-text-stroke-color: black;
+        margin-left: 100px;
+      }
+
+    .rules {
+      font-family:  'Provacali',Arial, sans-serif;
+      font-weight:normal;
+      font-style:normal;
+      stroke-width: 1mm;
+      color: white;
+      height: 35px;
+      width: 750px;
+      font-size: 30px;
+      -webkit-text-stroke-width: 2px;
+      -webkit-text-stroke-color: black;
+      margin-top: 200px;
+    }
